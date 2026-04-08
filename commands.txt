@@ -1,0 +1,10 @@
+For high level definition
+
+python analyze_pipeline_roce.py   -i /home/sesto/Desktop/PP_captures/first_capture/pipeline_parallelism.pcap   -o /home/sesto/Desktop/rdma_captures_analyzer/analysis_output_pp_pipeline/test_1   --
+window-mode steps   --start-step 2   --max-steps 1
+
+For low level definition 
+
+python pipeline_gpu_timeline_analyzer.py -i /home/sesto/Desktop/PP_captu
+res/first_capture/pipeline_parallelism.pcap -o /home/sesto/Desktop/rdma_captures_analyzer/analysis_output_pp_pipeline/high_l
+evel_test_1 --window-mode steps --start-step 3 --max-steps 1
